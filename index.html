@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="title-container">
+        <h1>Calculator exercise</h1>
+    </header>
+    <main>
+        <div class="cal-container">
+            <div id="cal-display" class="cal-display"></div>
+            <div class="row one">
+                <div><button id="cal-canc" class="cal-canc">C</button></div>
+                <div><button id="cal-signal" class="cal-special">+/-</button></div>
+                <div><button id="cal-percentage" class="cal-special">%</button></div>
+                <div><button id="cal-div" class="cal-operator">/</button></div>
+            </div>
+            <div class="row two">
+                <div><button id="cal-7" class="cal-num">7</button></div>
+                <div><button id="cal-8" class="cal-num">8</button></div>
+                <div><button id="cal-9" class="cal-num">9</button></div>
+                <div><button id="cal-multiply" class="cal-operator">x</button></div>
+            </div>
+            <div class="row three">
+                <div><button id="cal-4" class="cal-num">4</button></div>
+                <div><button id="cal-5" class="cal-num">5</button></div>
+                <div><button id="cal-6" class="cal-num">6</button></div>
+                <div><button id="cal-sub" class="cal-operator">-</button></div>
+            </div>
+            <div class="row four">
+                <div><button id="cal-1" class="cal-num">1</button></div>
+                <div><button id="cal-2" class="cal-num">2</button></div>
+                <div><button id="cal-3" class="cal-num">3</button></div>
+                <div><button id="cal-add" class="cal-operator">+</button></div>
+            </div>
+            <div class="row five">
+                <div><button id="cal-dot" class="cal-special">.</button></div>
+                <div><button id="cal-0" class="cal-num">0</button></div>
+                <div><button id="cal-backspace" class="cal-special">&LongLeftArrow;<br>back<br>space</button></div>
+                <div><button id="cal-result" class="cal-result">=</button></div>
+            </div>
+        </div>
+    </main>
+    <div class="msg"><p class="msg-para"></p></div>
+    <script src="./script.js"></script>
+</body>
+</html>
